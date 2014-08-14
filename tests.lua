@@ -68,7 +68,7 @@ addTest(
   sample = [[
     local LCS = require "LCS"
     local myClass = LCS.class()
-      local myClass2 = LCS.class {var1 = 0,  var2 = nil}
+      local myClass2 = LCS.class {var1 = 0,  var2 = nil, var3 = function(...) return end}
     print(myClass2.var1)
     print(myClass2.var2)
     print(myClass2.var3)
